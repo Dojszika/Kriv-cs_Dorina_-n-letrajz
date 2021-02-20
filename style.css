@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #0d2059;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  .enkep {
+    background-color: #8fa8f2;
+    width: 95%;
+    padding: 20px;
+    padding-right: 20px;
+
+  }
+  
+   .card {
+    background-color: #c1cef5;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    margin-top: 20px;
+  }
